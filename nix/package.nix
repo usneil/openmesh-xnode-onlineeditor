@@ -5,7 +5,7 @@ pkgs.buildNpmPackage {
   src = ../nextjs-app;
 
   # FIXME: this needs to be updated every time the package-lock.json changes
-  npmDepsHash = "sha256-o34A/bLD4ulGif4K9Qltefo5/U9U4pCDemGhLvIlyHY=";
+  npmDepsHash = "sha256-PbHelgHPBU80wDplBqHde+wFMAJamtPXyIHx7oCRWEU=";
 
   postBuild = ''
     # Add a shebang to the server js file, then patch the shebang to use a
